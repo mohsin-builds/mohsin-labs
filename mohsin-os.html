@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohsin OS — Case Study | Mohsin Labs</title>
+  <meta name="description" content="A short engineering case study of Mohsin OS: an agentic operating system for commerce, jobs and business workflows, built and deployed under real resource constraints.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://mohsinlabs.com/mohsin-os.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Mohsin Labs">
+  <meta property="og:title" content="Mohsin OS — Building an Agentic Operating System">
+  <meta property="og:description" content="From production infrastructure to evidence-first commerce workflows, this is the real build story behind Mohsin OS.">
+  <meta property="og:url" content="https://mohsinlabs.com/mohsin-os.html">
+  <meta property="og:image" content="https://mohsinlabs.com/images/products/mohsin-os-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mohsin OS — Case Study">
+  <meta name="twitter:description" content="An agentic operating system built for real commerce, jobs and business workflows.">
+  <meta name="twitter:image" content="https://mohsinlabs.com/images/products/mohsin-os-preview.svg">
+  <link rel="icon" type="image/png" href="images/mohsin-labs-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#05070b;--panel:#0b1017;--line:rgba(255,255,255,.09);--muted:#8b96a8;--cyan:#8be9f3;--green:#7ee2b8;--text:#f7fafc}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 80% 0%,rgba(34,211,238,.08),transparent 34%),var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}
+    a{color:inherit}.shell{width:min(1160px,calc(100% - 36px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:26px 0;border-bottom:1px solid var(--line)}
+    .brand{font:700 13px/1 Space Mono,monospace;letter-spacing:.18em;text-decoration:none}.navlinks{display:flex;gap:14px;flex-wrap:wrap}.navlinks a,.button{border:1px solid var(--line);border-radius:12px;padding:11px 15px;text-decoration:none;font-size:13px}
+    .hero{padding:86px 0 52px}.eyebrow{color:var(--cyan);font:700 12px/1 Space Mono,monospace;letter-spacing:.16em}.hero h1{font-size:clamp(46px,7vw,86px);line-height:.94;letter-spacing:-.055em;max-width:900px;margin:22px 0}
+    .hero p{max-width:760px;color:#aab4c3;font-size:18px;line-height:1.75}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button.primary{background:#eefcff;color:#041014;border-color:#eefcff;font-weight:700}
+    .proof{margin:26px 0 70px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.015));border-radius:24px;overflow:hidden}.proof img{display:block;width:100%;height:auto}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}.card{border:1px solid var(--line);background:rgba(255,255,255,.025);border-radius:20px;padding:28px}.card h2,.card h3{margin-top:0}.wide{grid-column:span 8}.small{grid-column:span 4}
+    .card p,.card li{color:#a5afbd;line-height:1.7}.kicker{font:700 11px/1 Space Mono,monospace;letter-spacing:.14em;color:#718096;text-transform:uppercase}.metric{font-size:38px;font-weight:800;letter-spacing:-.04em;margin:12px 0 6px}
+    .flow{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.flow span{border:1px solid var(--line);border-radius:999px;padding:9px 12px;color:#cbd5e1;font-size:12px}.stack{display:flex;gap:8px;flex-wrap:wrap}.stack span{background:rgba(139,233,243,.06);border:1px solid rgba(139,233,243,.15);color:#bdeff5;border-radius:999px;padding:8px 11px;font-size:12px}
+    .quote{font-size:24px;line-height:1.45;letter-spacing:-.025em;color:#e9eef5}.footer{margin-top:70px;padding:32px 0 46px;border-top:1px solid var(--line);color:#6f7a8c;font-size:12px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:800px){.wide,.small{grid-column:1/-1}.hero{padding-top:58px}.nav{align-items:flex-start;gap:20px;flex-direction:column}.hero p{font-size:16px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"TechArticle",
+    "headline":"Mohsin OS — Building an Agentic Operating System",
+    "author":{"@type":"Person","name":"Mohsin Iqbal","url":"https://mohsinbuilds.com/"},
+    "publisher":{"@type":"Organization","name":"Mohsin Labs","url":"https://mohsinlabs.com/"},
+    "mainEntityOfPage":"https://mohsinlabs.com/mohsin-os.html",
+    "about":["AI automation","Agentic systems","Commerce automation","Full-stack engineering"]
+  }
+  </script>
+</head>
+<body>
+  <div class="shell">
+    <nav class="nav">
+      <a class="brand" href="/">MOHSIN LABS / CASE STUDY</a>
+      <div class="navlinks">
+        <a href="https://mohsinbuilds.com/" target="_blank" rel="noopener noreferrer">MohsinBuilds ↗</a>
+        <a href="https://mohsin-os.vercel.app" target="_blank" rel="noopener noreferrer">Live OS ↗</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="eyebrow">FLAGSHIP BUILD · PRODUCTION ALPHA</div>
+      <h1>Mohsin OS</h1>
+      <p>
+        An agentic operating system I designed and built to automate real commerce,
+        job-search and business workflows. The goal is not another dashboard: it is a
+        system that discovers work, executes repeatable steps, preserves evidence and
+        brings only consequential decisions back to the human operator.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="https://mohsin-os.vercel.app" target="_blank" rel="noopener noreferrer">Open Live Showcase →</a>
+        <a class="button" href="https://mohsinbuilds.com/projects.html">View Portfolio</a>
+      </div>
+    </header>
+
+    <div class="proof">
+      <img src="images/products/mohsin-os-preview.svg" alt="Mohsin OS live command center and production architecture">
+    </div>
+
+    <section class="grid">
+      <article class="card wide">
+        <div class="kicker">The problem</div>
+        <h2>Too much work was being repeated manually.</h2>
+        <p>
+          Product research, supplier checks, listing preparation, job discovery,
+          application tracking and portfolio documentation were all separate workflows.
+          Mohsin OS was created as one operating layer that can connect those workflows
+          and turn them into repeatable agent tasks.
+        </p>
+      </article>
+
+      <article class="card small">
+        <div class="kicker">Current proof</div>
+        <div class="metric">Live</div>
+        <p>
+          Public production showcase, deployed API, persistent database/auth foundation,
+          protected operator routes and active Commerce + Jobs modules.
+        </p>
+      </article>
+
+      <article class="card small">
+        <div class="kicker">Architecture</div>
+        <h3>Production, not mockups.</h3>
+        <div class="stack">
+          <span>Next.js</span><span>TypeScript</span><span>Fastify</span>
+          <span>Supabase</span><span>PostgreSQL</span><span>Vercel</span>
+          <span>Render</span><span>GitHub</span>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <div class="kicker">Commerce workflow</div>
+        <h2>Evidence before automation.</h2>
+        <p>
+          The Commerce Engine is designed around real signals and measurable economics,
+          not invented scores. It moves opportunities through a controlled pipeline and
+          deliberately stops before external publishing.
+        </p>
+        <div class="flow">
+          <span>Market signals</span><span>Demand evidence</span><span>Supplier verification</span>
+          <span>Landed cost</span><span>Opportunity score</span><span>Listing draft</span>
+          <span>Human approval</span><span>Publish</span><span>Performance feedback</span>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <div class="kicker">What I solved in production</div>
+        <h2>The work included the failures.</h2>
+        <p>
+          Building the system meant debugging monorepo builds, deployment drift between
+          frontend and backend, Supabase SSR/PKCE recovery behavior, environment variables,
+          protected internal API calls, persistent workspace data, OAuth boundaries and
+          free-tier cold starts. Those production failures became part of the engineering
+          evidence, not something hidden from the story.
+        </p>
+      </article>
+
+      <article class="card small">
+        <div class="kicker">Safety boundary</div>
+        <h3>Human approval is mandatory.</h3>
+        <p>
+          Agents may research and prepare work, but Mohsin OS does not automatically
+          publish commerce listings. External publishing remains an explicit operator decision.
+        </p>
+      </article>
+
+      <article class="card small">
+        <div class="kicker">Constraint engineering</div>
+        <h3>Built under a bootstrap budget.</h3>
+        <p>
+          The first production version intentionally uses free-tier infrastructure and
+          on-demand execution so revenue can fund the next infrastructure step instead of
+          paying for hypothetical scale.
+        </p>
+      </article>
+
+      <article class="card wide">
+        <div class="kicker">What comes next</div>
+        <h2>Use it first. Measure it. Then scale it.</h2>
+        <p>
+          The immediate objective is to use Mohsin OS personally: generate real commerce
+          evidence, improve the Jobs Engine, document measurable outcomes, and turn those
+          outcomes into a feedback loop. Only after the workflows prove useful will the
+          platform expand toward broader multi-user access.
+        </p>
+      </article>
+
+      <article class="card wide">
+        <div class="kicker">Builder perspective</div>
+        <p class="quote">
+          “I built the environment I wanted to work in: one system that connects product
+          thinking, engineering, automation and measurable execution.”
+        </p>
+      </article>
+
+      <article class="card small">
+        <div class="kicker">Role</div>
+        <h3>Founder / Product Engineer</h3>
+        <p>Product architecture, full-stack implementation, automation, infrastructure, debugging and iteration.</p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <span>Mohsin Labs · Mohsin OS Case Study</span>
+      <span>Living case study — updated as real results are produced.</span>
+    </footer>
+  </div>
+</body>
+</html>

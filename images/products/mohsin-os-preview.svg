@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Mohsin OS Command Center</title>
+<desc id="d">Dark technical dashboard showing Mohsin OS online with Commerce, Jobs and automation modules.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#0b1420"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#34d399" stop-opacity=".06"/></linearGradient>
+</defs>
+<rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+<circle cx="1035" cy="70" r="250" fill="#22d3ee" opacity=".035"/>
+<rect x="48" y="44" width="1104" height="587" rx="26" fill="#070b11" stroke="#ffffff" stroke-opacity=".10"/>
+<rect x="76" y="72" width="48" height="48" rx="14" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="100" y="104" text-anchor="middle" fill="#f8fafc" font-family="Inter,Arial" font-size="22" font-weight="700">M</text>
+<text x="142" y="91" fill="#94a3b8" font-family="Inter,Arial" font-size="13" letter-spacing="3">MOHSIN OS</text>
+<text x="76" y="153" fill="#f8fafc" font-family="Inter,Arial" font-size="34" font-weight="700">Command Center</text>
+<text x="76" y="181" fill="#64748b" font-family="Inter,Arial" font-size="15">Agentic operating layer for commerce, jobs and business execution.</text>
+<rect x="886" y="82" width="122" height="32" rx="16" fill="#10b981" fill-opacity=".10" stroke="#34d399" stroke-opacity=".26"/>
+<circle cx="906" cy="98" r="5" fill="#34d399"/>
+<text x="919" y="103" fill="#6ee7b7" font-family="Inter,Arial" font-size="12" font-weight="700">ONLINE</text>
+<rect x="1019" y="82" width="105" height="32" rx="16" fill="#22d3ee" fill-opacity=".09" stroke="#67e8f9" stroke-opacity=".22"/>
+<text x="1071" y="103" text-anchor="middle" fill="#a5f3fc" font-family="Inter,Arial" font-size="11" font-weight="700">LIVE BUILD</text>
+<g font-family="Inter,Arial">
+  <rect x="76" y="225" width="324" height="110" rx="18" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".10"/>
+  <text x="98" y="253" fill="#64748b" font-size="11" letter-spacing="2">ACTIVE GOALS</text><text x="98" y="307" fill="#f8fafc" font-size="42" font-weight="700">3</text>
+  <rect x="418" y="225" width="324" height="110" rx="18" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".10"/>
+  <text x="440" y="253" fill="#64748b" font-size="11" letter-spacing="2">SYSTEM MODULES</text><text x="440" y="307" fill="#f8fafc" font-size="42" font-weight="700">6</text>
+  <rect x="760" y="225" width="364" height="110" rx="18" fill="#ffffff" fill-opacity=".025" stroke="#ffffff" stroke-opacity=".10"/>
+  <text x="782" y="253" fill="#64748b" font-size="11" letter-spacing="2">SAFETY BOUNDARY</text><text x="782" y="285" fill="#e2e8f0" font-size="17" font-weight="700">Human approval</text><text x="782" y="309" fill="#64748b" font-size="13">before external publishing</text>
+</g>
+<rect x="76" y="357" width="666" height="234" rx="20" fill="#ffffff" fill-opacity=".018" stroke="#ffffff" stroke-opacity=".09"/>
+<text x="100" y="389" fill="#94a3b8" font-family="Inter,Arial" font-size="13" font-weight="700">SYSTEM MODULES</text>
+<g font-family="Inter,Arial" font-size="14">
+  <text x="100" y="430" fill="#f1f5f9">Core Runtime</text><text x="650" y="430" fill="#6ee7b7" text-anchor="end">LIVE</text>
+  <line x1="100" y1="446" x2="718" y2="446" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="100" y="475" fill="#f1f5f9">Commerce Engine</text><text x="650" y="475" fill="#fde68a" text-anchor="end">BUILDING</text>
+  <line x1="100" y1="491" x2="718" y2="491" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="100" y="520" fill="#f1f5f9">Jobs Engine</text><text x="650" y="520" fill="#fde68a" text-anchor="end">BUILDING</text>
+  <line x1="100" y1="536" x2="718" y2="536" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="100" y="565" fill="#f1f5f9">Public Showcase + Operator Access</text><text x="650" y="565" fill="#6ee7b7" text-anchor="end">LIVE</text>
+</g>
+<rect x="760" y="357" width="364" height="234" rx="20" fill="url(#glow)" stroke="#67e8f9" stroke-opacity=".12"/>
+<text x="786" y="392" fill="#a5f3fc" font-family="Inter,Arial" font-size="11" letter-spacing="2">ARCHITECTURE</text>
+<g font-family="Inter,Arial" font-size="14">
+  <rect x="786" y="419" width="130" height="38" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity=".10"/><text x="851" y="443" fill="#e2e8f0" text-anchor="middle">Next.js</text>
+  <rect x="970" y="419" width="128" height="38" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity=".10"/><text x="1034" y="443" fill="#e2e8f0" text-anchor="middle">Fastify API</text>
+  <path d="M916 438h54" stroke="#22d3ee" stroke-opacity=".65"/>
+  <rect x="786" y="493" width="130" height="38" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity=".10"/><text x="851" y="517" fill="#e2e8f0" text-anchor="middle">Supabase</text>
+  <rect x="970" y="493" width="128" height="38" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity=".10"/><text x="1034" y="517" fill="#e2e8f0" text-anchor="middle">Workers</text>
+  <path d="M916 512h54" stroke="#22d3ee" stroke-opacity=".65"/>
+  <text x="786" y="566" fill="#64748b" font-size="12">Vercel · Render · PostgreSQL · GitHub CI</text>
+</g>
+</svg>

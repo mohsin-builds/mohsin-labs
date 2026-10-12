@@ -2,7 +2,7 @@
 
 **Tools for a Smarter Digital Economy.**
 
-Mohsin Labs is a product and innovation venture focused on building useful digital products, intelligent systems and experiments around real-world problems.
+Mohsin Labs develops digital products, practical business software and automation systems. Our flagship, Mohsin Labs OS, is a deployed private company operating system with an isolated public demo.
 
 It is the product-building arm of the Mohsin ecosystem, working alongside [Mohsin Builds](https://mohsinbuilds.com/).
 
@@ -26,7 +26,18 @@ The focus is on:
 
 The goal is to create technology that makes decisions clearer, workflows smarter and digital work more useful.
 
-## Live Products
+## Flagship — Mohsin Labs OS
+
+Company HQ connects CRM, AI workflow design, business overview, client projects, automation tools and product studio.
+
+- [Interactive public demo](https://app.mohsinlabs.com/demo) — fictional example data, isolated from private workspaces.
+- [Engineering case study](https://mohsinlabs.com/mohsin-os.html) — architecture, scope and honest release status.
+- [Request workspace access](https://app.mohsinlabs.com/access) — interest in a future independent customer workspace.
+- [Operator login](https://app.mohsinlabs.com/login) — private sign-in, not a public product trial.
+
+**Public paid subscriptions are not yet enabled.**
+
+## Other Live Products
 
 ### Product Opportunity Engine
 
@@ -83,6 +94,7 @@ Current technologies and workflows include:
 - Git
 - GitHub
 - GitHub Pages
+- Next.js, TypeScript, Supabase, PostgreSQL, Vercel and Render (Mohsin Labs OS)
 - AI-assisted development
 - Automation concepts
 
